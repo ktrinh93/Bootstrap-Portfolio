@@ -2,37 +2,66 @@
 <html>
     <head>
         <title>About Me</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
-        <div class="page-wrap">
-            <div id="top-bar">
-                <div class="content">
-                <header>
-                    <h1 id="name">Kevin Trinh</h1> 
+        <div class="container-fluid">
+            
+                <div class="row" id="top-bar">
+                    <div class="col-sm-0 col-md-1 col-lg-1"></div>
 
-                    <nav>
-                        <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
-                    </nav>
-                </header>
+                    <h2 class="col-sm-12 col-md-4 col-lg-3" id="name">Kevin Trinh</h2> 
+
+                    <div class="col-sm-0 col-md-1 col-lg-4"></div>
+
+                    
+                    <div class="col-md-5 col-lg-4">
+                        <nav class="nav justify-content-center">
+                            <a class="nav-item nav-link" href="index.html">About</a>
+                            <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link" href="contact.html">Contact</a>
+                        </nav>
+                    </div>
+
+                    <div class="col-sm-0 col-md-1 col-lg-0"></div>
                 </div>
-            </div>
+            
                 
-            <div class="content">
-                <div id="bio">
-                    <h1 class=teal-heading>About Me</h1>
-                    <img src="./assets/images/KevinTrinh.jpg" id= "me" alt="KevinTrinh" width=225px>
+            
+            <div class="row">
+                <div class="col-sm-0 col-md-1 col-lg-1"></div>
+                <div class="content col-sm-12 col-md-10 col-lg-8">
+                    <div id="bio">
+                        <div class="container">
+                        <div class="row">
+                            <h3 class="teal-heading col-sm-12">About Me</h3>
+                        </div>
 
-                    <p>My name is Kevin, and I am 25 years old. I graduated with a B.S. in bioengineering and a minor in computer science and engineering from Lehigh University in 2016. I also graduated with an M.S.E. in bioengineering from the University of Pennsylvania in 2018. Since then, I have been since been searching for a position that combines my passion for contributing to healthcare with my technical knowledge in computer science. As of recently, I have accepted an offer at a Philadelphia startup that specializes in developing software that facilitates discharged hospital patients and post-acute care centers.</p><br>
-                    <p>In my spare time, I enjoy both listening to and playing music. I can play guitar comfortably and am currently learning piano. Additionally, I am an avid gamer. My current favorite games are Paladins: Champions of the Realm and Fortnite: Battle Royale. </p>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <img src="./assets/images/KevinTrinh.jpg" class="img-fluid" id= "me" alt="KevinTrinh">
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <p>My name is Kevin, and I am 25 years old. I graduated with a B.S. in bioengineering and a minor in computer science and engineering from Lehigh University in 2016. I also graduated with an M.S.E. in bioengineering from the University of Pennsylvania in 2018. Since then, I have been since been searching for a position that combines my passion for contributing to healthcare with my technical knowledge in computer science. As of recently, I have accepted an offer at a Philadelphia startup that specializes in developing software that facilitates discharged hospital patients and post-acute care centers.</p><br>
+                                <p>In my spare time, I enjoy both listening to and playing music. I can play guitar comfortably and am currently learning piano. Additionally, I am an avid gamer. My current favorite games are Paladins: Champions of the Realm and Fortnite: Battle Royale. </p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-sm-0 col-md-1 col-lg-3"></div>
             </div>
-        </div>
 
-        <footer>
-            Copyright (c) 2019 Kevin Trinh
-        </footer>
+        </div>
     </body>
+
+    <footer class="footer">
+        <span>Copyright (c) 2019 Kevin Trinh</span>
+    </footer>
+            
 
 </html>

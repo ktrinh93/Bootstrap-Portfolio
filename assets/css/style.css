@@ -1,6 +1,9 @@
+.container-fluid {
+
+}
+
 .content {
-    width: 960px;
-    margin: auto;
+    padding: 0px;
 }
 
 body {
@@ -13,7 +16,6 @@ body {
 #top-bar {
     background-color:#ffffff;
     border-bottom: 2px solid #cccccc;
-    height: 76px;
 }
 
 #name {
@@ -24,11 +26,23 @@ body {
     float: left;
 }
 
-nav {
-    float: right;
-    font-size: 16px;
-    padding: 28px 3px;
+@media screen and (min-width: 768px) {
+    nav {
+        float: right;
+        font-size: 16px;
+        background-color: #ffffff;
+        margin: 18px 0px;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 16px;
+        background-color: #ffffff;
+        padding: 10px 0px;
+    }
+}
+
 
 a:link,
 a:visited,
@@ -37,8 +51,17 @@ a:active {
     text-decoration: none;
 }
 
-h1 {
+h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    font-weight: bold;
+    padding: auto;
+    height: 75px;
+}
+
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 .teal-heading {
@@ -53,9 +76,6 @@ p {
     margin: 0px;
 }
 
-.page-wrap {
-    min-height: calc(100vh - 77px);
-}
 
 footer {
     border-top: 8px solid #4aaaa5;
@@ -67,16 +87,14 @@ footer {
     color: whitesmoke;
     font-size: 12px;
     text-align: center;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 /* ABOUT ME PAGE */
 
 #me {
-    float: left;
     padding: 0px;
     border: 1px solid #dddddd;
-    margin-right: 25px;
 }
 
 #bio {
@@ -84,7 +102,6 @@ footer {
     border: 1px solid #dddddd;
     padding: 25px;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* PORTFOLIO PAGE */
