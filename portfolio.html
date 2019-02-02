@@ -2,59 +2,74 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     </head>
 
     <body>
-        <div class="page-wrap">
-            <div id="top-bar">
-                <div class="content">
-                <header>
-                    <h1 id="name">Kevin Trinh</h1> 
+        <div class="container-fluid">
 
-                    <nav>
-                        <a href="index.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+            <div class="row" id="top-bar">
+                <div class="col-sm-0 col-md-1 col-lg-1"></div>
+
+                <h2 class="col-sm-12 col-md-4 col-lg-3" id="name">Kevin Trinh</h2> 
+
+                <div class="col-sm-0 col-md-1 col-lg-4"></div>
+
+                
+                <div class="col-md-5 col-lg-4">
+                    <nav class="nav justify-content-center">
+                        <a class="nav-item nav-link" href="index.html">About</a>
+                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
                     </nav>
-                </header>
                 </div>
+
+                <div class="col-sm-0 col-md-1 col-lg-0"></div>
             </div>
 
-            <div class="content">
-                <div id="projects">
-                    <h1 class=teal-heading>Portfolio</h1>
-                    
-                    <div class= "icon-left" id="p1">
-                        <a href="#"><img src="./assets/images/p1-hangman.jpg" class="p-img" id="p1-img"></a>
-                        <p class="project-title" id="p1-title">Hangman</p>
-                    </div>
+            <div class="row">
+                <div class="col-sm-0 col-md-1 col-lg-1"></div>
+                <div class="content col-sm-12 col-md-10 col-lg-8">
+                    <div id="projects">
+                        <h3 class=teal-heading>Portfolio</h3>
+                        
+                        <div class= "icon-left" id="p1">
+                            <a href="#"><img src="./assets/images/p1-hangman.jpg" class="p-img" id="p1-img"></a>
+                            <p class="project-title" id="p1-title">Hangman</p>
+                        </div>
 
-                    <div class= "icon-left" id="p2">
-                        <a href="#"><img src="./assets/images/p2-rpg.jpg" class="p-img" id="p2-img"></a>
-                        <p class="project-title" id="p2-title">RPG Game</p>
-                    </div>
+                        <div class= "icon-left" id="p2">
+                            <a href="#"><img src="./assets/images/p2-rpg.jpg" class="p-img" id="p2-img"></a>
+                            <p class="project-title" id="p2-title">RPG Game</p>
+                        </div>
 
-                    <div class= "icon-left" id="p3">
-                        <a href="#"><img src="./assets/images/p3-trivia.png" class="p-img" id="p3-img"></a>
-                        <p class="project-title" id="p3-title">Trivia Game</p>
-                    </div>
+                        <div class= "icon-left" id="p3">
+                            <a href="#"><img src="./assets/images/p3-trivia.png" class="p-img" id="p3-img"></a>
+                            <p class="project-title" id="p3-title">Trivia Game</p>
+                        </div>
 
-                    <div class= "icon-left" id="p4">
-                        <a href="#"><img src="./assets/images/p4-information.jpg" class="p-img" id="p4-img"></a>
-                        <p class="project-title" id="p4-title">Rutgers Info Widget</p>
-                    </div>
+                        <div class= "icon-left" id="p4">
+                            <a href="#"><img src="./assets/images/p4-information.jpg" class="p-img" id="p4-img"></a>
+                            <p class="project-title" id="p4-title">Rutgers Info Widget</p>
+                        </div>
 
-                    <div class= "icon-right" id="p5">
-                        <a href="#"><img src="./assets/images/p5-rps.jpg" class="p-img" id="p5-img"></a>
-                        <p class="project-title" id="p5-title">Rock Paper Scissors</p>
+                        <div class= "icon-right" id="p5">
+                            <a href="#"><img src="./assets/images/p5-rps.jpg" class="p-img" id="p5-img"></a>
+                            <p class="project-title" id="p5-title">Rock Paper Scissors</p>
+                        </div>
                     </div>
                 </div>
+                <div class="col-sm-0 col-md-1 col-lg-3"></div>
             </div>
+        
         </div>
-
-        <footer>
-            Copyright (c) 2019 Kevin Trinh
-        </footer>
     </body>
-
+    
+    <footer class="footer">
+        <span>Copyright (c) 2019 Kevin Trinh</span>
+    </footer>
 
 </html>
