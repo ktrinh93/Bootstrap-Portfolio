@@ -1,6 +1,8 @@
 .container-fluid {
-
+    min-height: calc(100vh - 81px);
+    margin-bottom: 20px;
 }
+
 
 .content {
     padding: 0px;
@@ -11,6 +13,7 @@ body {
     background-image: url("../images/qbkls/qbkls.png");
     margin: 0px;
     color: #777777;
+    height: auto;
 }
 
 #top-bar {
@@ -76,7 +79,6 @@ p {
     margin: 0px;
 }
 
-
 footer {
     border-top: 8px solid #4aaaa5;
     background: #666666;
@@ -87,8 +89,10 @@ footer {
     color: whitesmoke;
     font-size: 12px;
     text-align: center;
-    /* vertical-align: bottom; */
+    
 }
+
+
 
 /* ABOUT ME PAGE */
 
