@@ -147,10 +147,14 @@ footer {
     width: auto;
     margin: 0px;
 
-    position: relative;
-    bottom: 60px;
+    /* position: relative;
+    bottom: 60px; */
 
     pointer-events: none;
+}
+
+.source-code-link {
+    position: relative;
 }
 
 .p-img {
@@ -173,4 +177,11 @@ input, textarea {
     padding: 10px 20px 10px 20px;
     background-color: #4aaaa5;
     border: 1px solid #dddddd;
+}
+
+a:link.contact-link {
+    color: #4aaaa5;
+}
+a:hover.contact-link {
+    text-decoration: underline;
 }
