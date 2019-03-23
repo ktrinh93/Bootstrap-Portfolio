@@ -180,7 +180,7 @@ input, textarea {
     border: 1px solid #dddddd;
 }
 
-a:link.contact-link {
+a.contact-link {
     color: #4aaaa5;
 }
 a:hover.contact-link {
