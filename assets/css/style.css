@@ -127,12 +127,13 @@ footer {
 
 .icon-left {
     margin: 0px 32px 0px 0px;
-    height: 200px;
+    height: 220px;
+    margin-bottom: 20px;
 }
 
 .icon-right {
     margin: 0px 0px 0px 0px;
-    height: 200px;
+    height: 140px;
 }
 
 .project-title {
@@ -159,7 +160,7 @@ footer {
 
 .p-img {
     width: 250px;
-    height: 200px;
+    height: 140px;
 }
 
 #p1, #p2, #p3, #p4, #p5, #p6 {
