@@ -60,7 +60,7 @@ a:active {
 }
 
 h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     font-weight: bold;
     padding: auto;
@@ -68,7 +68,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: bold;
 }
 
