@@ -129,11 +129,7 @@ footer {
     margin: 0px 32px 0px 0px;
     height: 220px;
     margin-bottom: 20px;
-}
-
-.icon-right {
-    margin: 0px 0px 0px 0px;
-    height: 140px;
+    display: inline-block;
 }
 
 .project-title {
@@ -161,10 +157,6 @@ footer {
 .p-img {
     width: 250px;
     height: 140px;
-}
-
-#p1, #p2, #p3, #p4, #p5, #p6, #p7 {
-    display: inline-block;
 }
 
 /* CONTACT PAGE */
